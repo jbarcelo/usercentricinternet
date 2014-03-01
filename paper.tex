@@ -407,15 +407,11 @@
 %
 
 \author{
-	Name~Surname,~%\IEEEmembership{Member,~IEEE,}
-    Name~Surname,~%\IEEEmembership{Member,~IEEE,}
-    Name~Surname,~%\IEEEmembership{Member,~IEEE,}
-    Name~Surname,~%\IEEEmembership{Member,~IEEE,}
-    and~Name~Surname%~\IEEEmembership{Life~Fellow,~IEEE}% <-this % stops a space
-\thanks{The authors are with\newline
-blah \newline
-blah \newline
-blah}%
+    Jaume~Barcelo~%\IEEEmembership{Member,~IEEE,}
+    and~Boris~Bellalta%~\IEEEmembership{Life~Fellow,~IEEE}% <-this % stops a space
+\thanks{The authors are with Universitat Pompeu Fabra.\newline
+Address: Roc Boronat 138, 08018, Barcelona. \newline
+E-mail: {name.surname}@upf.edu }%
 }
 
 
@@ -474,11 +470,13 @@ blah}%
 \begin{abstract}
 %\boldmath
 The Internet is profoundly transforming the economic and social structures of the 21st century.
-The ability to instantaneously share data across the globe enables new ways of collaboration and production models.
+The ability to instantaneously share data across the globe enables new ways of collaboration and new production models.
 The individuals can join loosely organized working groups and communities and contribute to the evolution and progress of the humankind.
 By choosing which communities they join and which communities they contribute to, the users can also be participants and producers.
-Furthermore, this model enables a new way of democracy in which the people vote not only with their ballots, but also with their daily jobs and contributions.
-In this work we describe examples of bottom-up initiatives in which the users play a central role in the development of the project.
+%Furthermore, this model enables a new way of democracy in which the people vote not only with their ballots, but also with their daily jobs and contributions.
+In this work we describe examples of community-centric innovation in which the users play a central role in the development of the project.
+The emphasis is placed in community networks and networked cryptocurrencies.
+These technologies are good examples in the sense that they empower the communities that use and develop them.
 These are initiatives by and for the people.
 \end{abstract}
 % IEEEtran.cls defaults to using nonbold math in the Abstract.
@@ -540,10 +538,15 @@ The benefit is not only the number of participants, but also the variety.
 The heterogeneous background of the participants makes it possible to consider a wider space of solutions and the extensive scrutiny throughout the discussion and decision-making stage reduces the chances of mistakes.
 
 In this work we consider several examples in which the users organize in communities to construct user-centric networks and networked services.
+We start with community networks in Sec.~\ref{sec:community-networks} and then continue with networked cryptocurrencies in Sec.~\ref{sec:networked-cryptocurrencies}.
+Other technologies fruit of community-centric innovation are outlined in Sec.~\ref{sec:other} and an overview of research and innovation projects related to community-centric innovation is presented in Sec.~\ref{sec:projects}.
+Finally, we conclude in Sec.~\ref{sec:conclusion}.
 
 
 
 \section{Community Networks}
+\label{sec:community-networks}
+
 Probably the best example of user-centric networking are community networks.
 Community networks are deployed by the same users that use them.
 Consequently, they are carefully tailored to satisfy the users' needs.
@@ -574,7 +577,7 @@ In case of emergency, the presence of local experts facilitates quick deployment
 
 The decentralized nature of community networks greatly helps in fostering organic growth and also in  resisting node failures.
 The absence of central points of failure guarantees that two neighbours will be able to connect to each other as long as they keep their nodes running, regardless of what happens to the rest of the network.
-Mesh routing protocols, such as BMX6, allow the network to quickly re-configure itself and to route packets around failures to keep connectivity.
+Mesh routing protocols, such as BMX6 \cite{neumann2012ebc}, allow the network to quickly re-configure itself and to route packets around failures to preserve connectivity.
 These protocols are particularly tailored to work in challenging multi-hop wireless conditions.
 To take down a community network it is necessary to shut down all the nodes.
 
@@ -605,7 +608,12 @@ In any case, this is not a leadership which is attached to the person.
 The leadership is attached to the contributions.
 
 A core principle of community networks is precisely the sharing of the network as a commons good.
-There is no single owner of the network.
+This is particularly relevant in the case of wireless networks that use the ISM (industrial, scientific, medical) bands.
+This bands contain a small fraction of the spectrum that is available without requiring a licence. 
+In practice, these bands are a commons good that should be carefully managed by the community to use it effectively without creating unnecessary interference.
+Good practices include the use of directive antennas and the limitation of the radiated power.
+
+As the community network is a commons resource, there is no single owner of the network.
 %In fact there is no owner of the network.
 Even though the participants may own the pieces of hardware that they contributed to the network, the network as a whole belongs the community.
 As the value of the network increases with the number of participants, the community has an incentive to share existing network resources with newcomers.
@@ -626,6 +634,7 @@ They are planned, financed, deployed and maintained by the same users that benef
 
 
 \section{Networked Cryptocurrencies}
+\label{sec:networked-cryptocurrencies}
 
 Another area that has witnessed the potential for community-centric innovation is that of networked cryptocurrency \cite{nakamoto2008bpe}.
 The combination of cryptography, free libre software and a data network makes it possible the use of networked cryptocurrencies.
@@ -651,7 +660,11 @@ There is no single point of failure or central entity that can be attacked to ta
 As there are thousands of nodes spread across the network, the currency can survive as long as the underlying data network survives.
 The risks of blockades or political interference are greatly mitigated.
 Many Internet organizations such as Wikileaks and Wordpress accept donations and payments in cryptocurrency.
-In some cases to bypass governments blockades and in others to operate in countries with lacking payment networks.
+In some cases the reason to bypass government or paying networks blockades and in others the motivation is to operate in countries with lacking payment networks.
+
+It is in areas lacking effective financial and banking systems where cryptocurrencies have a potential for greater impact.
+Just like some areas leapfrogged from no telecommunication services to wireless handheld Internet enabled devices, it is possible that these same areas that currently use mobile calls minutes as a currency transition directly to the latest currency technology which is cryptocurrency.
+Many countries suffer from chronic hyperinflation problems that could be solved by moving to a cryptocurrency in which the inflation rate (if any) can be chosen by the community and embedded in the protocol.
 
 Some of the advantages of networked cryptocurrencies are derived from their networked nature.
 The reach of the cryptocurrency is the same as that of the underlying network.
@@ -700,6 +713,7 @@ In the information age money is just information and wealth is measured in knowl
 The progressive evolution towards a reputation economy is a natural step.
 
 \section{Community-Centric Innovation}
+\label{sec:other}
 
 Throughout human history, organizational models have changed, transformed and evolved.
 As new technologies develop, old models are progressively replaced by others that are more efficient in the context of the new technologies.
@@ -734,6 +748,8 @@ Lower prices translate to a greater community that can contribute to further imp
 Decentralization, user empowerment and a focus on community-centric models seem to be a common denominator in the most exciting innovations in the area of information and communication technologies.
 
 \section{Projects about Community Networks and Cryptocurrencies}
+\label{sec:projects}
+
 Community-centric innovation such as Community Networks and Networked Cryptocurrencies have attracted the attention of the research community.
 In this section we detail three European projects that are related to community-centric innovation.
 
@@ -762,6 +778,8 @@ This project is actually more ambitious and also considers decentralized social 
 The scope of this project also includes community-centric innovation, privacy and security, open knowledge, open data and open standards.
 
 \section{Conclusions}
+\label{sec:conclusion}
+
 In some aspects of information and communication technologies, communities are  leading the path of innovation.
 Community-centric innovation is characterized by peer-to-peer relations and openness.
 Communities have also demonstrated their ability to take advantage of data networks and network effects.
